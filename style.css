@@ -9,7 +9,17 @@
 html{
   scroll-behavior: smooth;
 }
+.c640 {
+	 display: block;
+}
 
+@media (max-width: 640px) {
+
+.c640 {
+ display: none;
+}
+
+}
 body {
   font-size: 100%;
   background: linear-gradient(68.15deg, #020101 16.62%, #060f58 85.61%);
